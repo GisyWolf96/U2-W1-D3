@@ -1,0 +1,21 @@
+section {
+    background-color: rgb(251, 247, 227);
+    color: rgb(97, 36, 6);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section .flex-article {
+    margin: 1em;
+}
+
+section img {
+    width: 90%;
+    margin: 1em;
+}
+
+@media screen and (max-width: 1024px) {
+    section {
+        flex-wrap: wrap-reverse;
+    }
+}

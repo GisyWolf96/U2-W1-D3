@@ -1,0 +1,35 @@
+header nav {
+    display: flex;
+    background-color: rgb(251, 247, 227);
+    padding: 1em;
+    border-radius: 60px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav button {
+    border: none;
+    display: flex;
+}
+
+nav button {
+    font-size: 1.1em;
+    margin-right: 1em;
+    cursor: pointer;
+    color: rgb(97, 36, 6);
+    background-color: rgb(243, 223, 133);
+    border-radius: 80px;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav button img {
+    height: 70px;
+    padding-right: 1.5em;
+}
+
+.b-img {
+    font-weight: bold;
+    font-size: 1.5em;
+}
